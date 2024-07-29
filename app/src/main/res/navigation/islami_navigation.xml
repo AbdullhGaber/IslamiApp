@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/islami_navigation"
+    app:startDestination="@id/quranFragment">
+
+    <fragment
+        android:id="@+id/quranFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.quran.ui.QuranFragment"
+        android:label="fragment_quran"
+        tools:layout="@layout/fragment_quran" >
+        <action
+            android:id="@+id/action_quranFragment_to_quranDetailsFragment"
+            app:destination="@id/quranDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ahadeethFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.ahadeeth.ui.AhadeethFragment"
+        android:label="fragment_ahadeeth"
+        tools:layout="@layout/fragment_ahadeeth" />
+    <fragment
+        android:id="@+id/sebhaFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.sebha.ui.SebhaFragment"
+        android:label="fragment_sebha"
+        tools:layout="@layout/fragment_sebha" />
+    <fragment
+        android:id="@+id/radioFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.radio.ui.RadioFragment"
+        android:label="fragment_radio"
+        tools:layout="@layout/fragment_radio" />
+    <fragment
+        android:id="@+id/quranDetailsFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.quran.ui.QuranDetailsFragment"
+        android:label="QuranDetailsFragment" >
+        <argument
+            android:name="surahPosition"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="surahTitle"
+            app:argType="string"
+            android:defaultValue="سورة البقرة" />
+    </fragment>
+</navigation>

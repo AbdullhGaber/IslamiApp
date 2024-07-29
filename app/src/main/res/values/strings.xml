@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IslamiApp</string>
+    <string name="splash_background">Splash Background</string>
+    <string name="quran">Quran</string>
+    <string name="ahadeeth">Ahadeeth</string>
+    <string name="sebha">Sebha</string>
+    <string name="radio">Radio</string>
+    <string name="quran_logo">Quran Logo</string>
+    <string name="surah_name">Surah Name</string>
+    <string name="verses_number">Verses Number</string>
+    <string name="play_icon">Play Icon</string>
+</resources>
