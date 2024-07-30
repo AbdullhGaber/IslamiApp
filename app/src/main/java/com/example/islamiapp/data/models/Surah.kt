@@ -1,3 +1,5 @@
+@file:JvmName("HadeethKt")
+
 package com.example.islamiapp.data.models
 
 

@@ -18,7 +18,11 @@
         android:id="@+id/ahadeethFragment"
         android:name="com.example.islamiapp.ui.fragments.home.ahadeeth.ui.AhadeethFragment"
         android:label="fragment_ahadeeth"
-        tools:layout="@layout/fragment_ahadeeth" />
+        tools:layout="@layout/fragment_ahadeeth" >
+        <action
+            android:id="@+id/action_ahadeethFragment_to_ahadeethDetailsFragment"
+            app:destination="@id/ahadeethDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/sebhaFragment"
         android:name="com.example.islamiapp.ui.fragments.home.sebha.ui.SebhaFragment"
@@ -41,5 +45,13 @@
             android:name="surahTitle"
             app:argType="string"
             android:defaultValue="سورة البقرة" />
+    </fragment>
+    <fragment
+        android:id="@+id/ahadeethDetailsFragment"
+        android:name="com.example.islamiapp.ui.fragments.home.ahadeeth.ui.AhadeethDetailsFragment"
+        android:label="AhadeethDetailsFragment" >
+        <argument
+            android:name="hadeeth"
+            app:argType="com.example.islamiapp.data.models.Hadeeth" />
     </fragment>
 </navigation>
