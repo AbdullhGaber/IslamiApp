@@ -9,5 +9,10 @@
     <string name="surah_name">Surah Name</string>
     <string name="verses_number">Verses Number</string>
     <string name="play_icon">Play Icon</string>
-    <string name="el_ahadeeth">الأحاديث</string>
+    <string name="el_ahadeeth">Ahadeeth</string>
+    <string name="radio_image">Radio Image</string>
+    <string name="hadeeth_logo">Hadeeth Logo</string>
+    <string name="quran_radio_station">Quran Radio Station</string>
+    <string name="previous_play_icon">Previous Play Icon</string>
+    <string name="next_play_icon">Next Play Icon</string>
 </resources>

@@ -1,15 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.fragments.home.radio.ui.RadioFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="18sp"
-        android:text="Radio" />
+        android:id="@+id/islami_tv"
+        style="@style/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/quran_logo_tv"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/radio_image"
+        android:src="@drawable/radio_image"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/islami_tv" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quran_radio_station"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quran_logo_tv" />
+
+    <ImageView
+        android:id="@+id/play_icon_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/play_icon"
+        android:src="@drawable/baseline_play_arrow_24"
+        app:layout_constraintEnd_toStartOf="@+id/previous_icon_iv"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toEndOf="@+id/next_ic_iv"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/next_ic_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/next_play_icon"
+        android:clickable="true"
+        android:layout_marginStart="100dp"
+        android:focusable="true"
+        android:src="@drawable/baseline_skip_next_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/play_icon_iv" />
+
+    <ImageView
+        android:id="@+id/previous_icon_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/previous_play_icon"
+        android:clickable="true"
+        android:layout_marginEnd="100dp"
+        android:focusable="true"
+        android:src="@drawable/baseline_skip_previous_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/play_icon_iv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

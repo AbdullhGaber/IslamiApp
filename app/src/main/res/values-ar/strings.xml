@@ -11,4 +11,9 @@
     <string name="verses_number">عدد الآيات</string>
     <string name="play_icon">ايقونة تشغيل</string>
     <string name="el_ahadeeth">الأحاديث</string>
+    <string name="radio_image">صورة راديو</string>
+    <string name="hadeeth_logo">لوجو حديث</string>
+    <string name="quran_radio_station">اذاعة القرآن الكريم</string>
+    <string name="previous_play_icon">زر التشغيل السابق</string>
+    <string name="next_play_icon">زر التشغيل التالي</string>
 </resources>
