@@ -1,15 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.fragments.home.sebha.ui.SebhaFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="18sp"
-        android:text="Sebha" />
+        android:layout_height="wrap_content"
+        tools:context=".ui.fragments.home.sebha.ui.SebhaFragment">
+        <TextView
+            android:id="@+id/islami_tv"
+            style="@style/headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_name"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/sebha_head_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="32dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/head_sebha_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/islami_tv" />
+
+        <ImageView
+            android:id="@+id/sebha_iv"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/radio_image"
+            android:src="@drawable/body_sebha_logo"
+            android:visibility="visible"
+            android:layout_marginTop="-27dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sebha_head_iv" />
+
+        <TextView
+            android:id="@+id/tasbeeh_no_tv"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/tasbeeh_numbers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sebha_iv" />
+
+        <Button
+            android:id="@+id/tasbeeh_count"
+            style="@style/title_small"
+            android:backgroundTint="?attr/colorPrimaryVariant"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:clickable="false"
+            android:text="30"
+            app:layout_constraintEnd_toEndOf="@+id/tasbeeh_no_tv"
+            app:layout_constraintStart_toStartOf="@+id/tasbeeh_no_tv"
+            app:layout_constraintTop_toBottomOf="@+id/tasbeeh_no_tv" />
+
+        <Button
+            android:id="@+id/sobhan_allah_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="سبحان الله"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/tasbeeh_count"
+            app:layout_constraintStart_toStartOf="@+id/tasbeeh_count"
+            app:layout_constraintTop_toBottomOf="@+id/tasbeeh_count" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

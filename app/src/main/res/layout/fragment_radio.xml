@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/quran_logo_tv"
+        android:id="@+id/sebha_iv"
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginTop="128dp"
@@ -33,14 +33,14 @@
         app:layout_constraintTop_toBottomOf="@+id/islami_tv" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tasbeeh_no_tv"
         style="@style/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/quran_radio_station"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quran_logo_tv" />
+        app:layout_constraintTop_toBottomOf="@+id/sebha_iv" />
 
     <ImageView
         android:id="@+id/play_icon_iv"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@+id/previous_icon_iv"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toEndOf="@+id/next_ic_iv"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tasbeeh_no_tv" />
 
     <ImageView
         android:id="@+id/next_ic_iv"
