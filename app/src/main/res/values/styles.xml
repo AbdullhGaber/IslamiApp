@@ -4,35 +4,35 @@
       <item name="android:fontFamily">@font/elmessiri_semibold</item>
       <item name="fontWeight">700</item>
       <item name="android:textSize">30sp</item>
-      <item name="android:textColor">@color/black_100</item>
+      <item name="android:textColor">?attr/colorOnPrimary</item>
    </style>
 
    <style name="title">
       <item name="android:fontFamily">@font/elmessiri_semibold</item>
       <item name="fontWeight">600</item>
       <item name="android:textSize">25sp</item>
-      <item name="android:textColor">@color/black_100</item>
+      <item name="android:textColor">?attr/colorOnPrimary</item>
    </style>
 
    <style name="title_small">
       <item name="android:fontFamily">@font/elmessiri_semibold</item>
       <item name="fontWeight">400</item>
       <item name="android:textSize">25sp</item>
-      <item name="android:textColor">@color/black_100</item>
+      <item name="android:textColor">?attr/colorOnPrimary</item>
    </style>
 
    <style name="quran_verses">
       <item name="android:fontFamily">@font/koufibd</item>
       <item name="fontWeight">400</item>
       <item name="android:textSize">20sp</item>
-      <item name="android:textColor">@color/black_100</item>
+      <item name="android:textColor">?attr/colorOnSecondary</item>
    </style>
 
    <style name="body">
       <item name="android:fontFamily">@font/jf_flat_regular</item>
       <item name="fontWeight">400</item>
       <item name="android:textSize">25sp</item>
-      <item name="android:textColor">@color/black_100</item>
+      <item name="android:textColor">?attr/colorOnPrimary</item>
    </style>
 
 </resources>

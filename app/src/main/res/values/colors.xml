@@ -6,4 +6,7 @@
     <color name="white100">#FFF8F8F8</color>
     <color name="gold">#FFB7935F</color>
     <color name="gold_2">#91B7935F</color>
+    <color name="yellow">#FFFACC1D</color>
+    <color name="dark_blue">#FF141A2E</color>
+    <color name="dark_blue_2">#CC141A2E</color>
 </resources>

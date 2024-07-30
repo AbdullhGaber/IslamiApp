@@ -36,7 +36,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:alpha=".8"
-        android:background="@color/white100"
+        app:cardBackgroundColor="?attr/colorSecondaryVariant"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         android:nestedScrollingEnabled="true"
@@ -80,7 +80,7 @@
                   android:layout_height="1dp"
                   android:layout_marginHorizontal="75dp"
                   android:layout_marginTop="50dp"
-                  android:background="?attr/colorPrimary"
+                  android:background="?attr/colorSecondary"
                   app:layout_constraintEnd_toEndOf="parent"
                   app:layout_constraintStart_toStartOf="parent"
                   app:layout_constraintTop_toTopOf="parent" />
