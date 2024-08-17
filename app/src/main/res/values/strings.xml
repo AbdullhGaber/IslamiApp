@@ -15,6 +15,8 @@
     <string name="quran_radio_station">Quran Radio Station</string>
     <string name="previous_play_icon">Previous Play Icon</string>
     <string name="next_play_icon">Next Play Icon</string>
+    <string name="channel_name">Radio Notification</string>
+    <string name="channel_description">Radio Station</string>
     <string name="tasbeeh_numbers">Tasbeeh Numbers</string>
     <string name="sobhan_allah">Sobhan Allah</string>
     <string name="al_hamdo_llellah">Al Hamdo Llellah</string>
