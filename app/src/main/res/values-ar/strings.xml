@@ -18,4 +18,10 @@
     <string name="next_play_icon">زر التشغيل التالي</string>
     <string name="channel_name">Radio Notification</string>
     <string name="channel_description">Radio Station</string>
+    <string name="tasbeeh_numbers">عدد التسبيحات</string>
+    <string name="sobhan_allah">سبحان الله</string>
+    <string name="al_hamdo_llellah">الحمدلله</string>
+    <string name="allah_akaber">الله اكبر</string>
+    <string name="la_elaah_ela_allah">لا اله الله وحده لا شريك له</string>
+
 </resources>

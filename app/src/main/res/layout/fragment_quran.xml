@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/quran_logo_tv"
+        android:id="@+id/sebha_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -37,17 +37,17 @@
         android:layout_width="0dp"
         android:layout_height="4dp"
         android:layout_marginTop="30dp"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quran_logo_tv" />
+        app:layout_constraintTop_toBottomOf="@+id/sebha_iv" />
 
     <View
         android:id="@+id/horizontal_line_two"
         android:layout_width="0dp"
         android:layout_height="4dp"
         android:layout_marginTop="45dp"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontal_line_one" />
@@ -56,7 +56,7 @@
         android:id="@+id/vertical_line_one"
         android:layout_width="4dp"
         android:layout_height="0dp"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontal_line_one" />

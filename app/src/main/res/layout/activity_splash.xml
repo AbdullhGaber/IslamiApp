@@ -11,7 +11,7 @@
         android:contentDescription="@string/splash_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/splash_light"
+        android:src="@drawable/splash"
         android:scaleType="fitXY"
         android:text="Hello World!"/>
 
