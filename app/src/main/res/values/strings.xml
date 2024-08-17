@@ -15,4 +15,6 @@
     <string name="quran_radio_station">Quran Radio Station</string>
     <string name="previous_play_icon">Previous Play Icon</string>
     <string name="next_play_icon">Next Play Icon</string>
+    <string name="channel_name">Radio Notification</string>
+    <string name="channel_description">Radio Station</string>
 </resources>

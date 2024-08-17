@@ -16,4 +16,6 @@
     <string name="quran_radio_station">اذاعة القرآن الكريم</string>
     <string name="previous_play_icon">زر التشغيل السابق</string>
     <string name="next_play_icon">زر التشغيل التالي</string>
+    <string name="channel_name">Radio Notification</string>
+    <string name="channel_description">Radio Station</string>
 </resources>

@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/islami_tv" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/quran_station"
         style="@style/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@+id/previous_icon_iv"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toEndOf="@+id/next_ic_iv"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/quran_station" />
 
     <ImageView
         android:id="@+id/next_ic_iv"
